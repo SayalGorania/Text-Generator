@@ -1,4 +1,5 @@
 # Text-Generator
+![image](https://github.com/SayalGorania/Text-Generator/assets/100285110/fd028194-d752-494b-a252-30bdbfb4ba49)
 
 
 ## Description 💡
