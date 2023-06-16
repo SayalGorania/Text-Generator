@@ -11,8 +11,8 @@ The following packages will be required:
 
 | Package Name | Version |
 | ------------ | ------- |
-| Numpy        |  |
-| Torch        |  |
+| Numpy        |  1.21.5 |
+| Torch        |  2.0.1  |
 
   
   
