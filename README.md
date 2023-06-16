@@ -1,5 +1,6 @@
 # Text-Generator 📖
-An LSTM model that can generate text after taking in a prompt from classic books.
+An LSTM model that can generate text after taking in a prompt from classic books.  
+  
 ![image](https://github.com/SayalGorania/Text-Generator/assets/100285110/fd028194-d752-494b-a252-30bdbfb4ba49)
 
 
