@@ -22,6 +22,7 @@ ToDo list:
 - [x] Model selection
 - [x] Model training and testing
 - [ ] Model tuning
+- [ ] Restructure architecture
 - [ ] UI design
   
   
