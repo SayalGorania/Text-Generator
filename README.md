@@ -1,9 +1,10 @@
 # Text-Generator 📖
+An LSTM model that can generate text after taking in a prompt from classic books.
 ![image](https://github.com/SayalGorania/Text-Generator/assets/100285110/fd028194-d752-494b-a252-30bdbfb4ba49)
 
 
 ## Description 💡
-An LSTM model that can generate text after taking in a prompt from classic books.
+The LSTM model was trained on Alice in Wonderland and takes in a random prompt from the book to generate its own text.
   
   
 ## Install 📑
