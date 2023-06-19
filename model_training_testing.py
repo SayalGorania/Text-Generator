@@ -19,7 +19,7 @@ class CharModel(nn.Module):
                             num_layers=2,
                             batch_first=True)
         self.dropout = nn.Dropout(0.2)
-        self.linear = nn.Linear(256, self.n_vocab)
+        self.linear = nn.Linear(256, n_vocab)
 
     def forward(self, x):
         x, _ = self.lstm(x)
@@ -30,7 +30,7 @@ class CharModel(nn.Module):
         return x
 
 
-def train_and_test_model(X, y, n_epochs, batch_size, n_vocab):
+def train_and_test_model(X, y, n_epochs, batch_size, n_vocab, char_to_int):
     # Create DataLoader for training and validation
     loader = data.DataLoader(data.TensorDataset(X, y),
                              shuffle=True,
@@ -69,6 +69,6 @@ def train_and_test_model(X, y, n_epochs, batch_size, n_vocab):
                 best_model = model.state_dict()
 
             print("Epoch %d: Cross-entropy: %.4f" % (epoch, loss))
-
+    torch.save([best_model, char_to_int], "single-char2.pth")
     # Return the best trained model or any relevant evaluation results
     return best_model, best_loss
